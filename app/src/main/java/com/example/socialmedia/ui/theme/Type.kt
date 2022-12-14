@@ -1,10 +1,22 @@
 package com.example.socialmedia.ui.theme
 
 import androidx.compose.material.Typography
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import com.example.socialmedia.R
+
+val fonts = FontFamily(
+    Font(R.font.roboto_black.ttf),
+    Font(R.font.roboto_bold, weight = FontWeight.Bold),
+    Font(R.font.roboto_light, weight = FontWeight.Light),
+    Font(R.font.roboto_thin, weight = FontWeight.Thin),
+    Font(R.font.roboto_italic, weight = FontWeight.Normal, style = FontStyle.Italic),
+)
 
 // Set of Material typography styles to start with
 val Typography = Typography(
