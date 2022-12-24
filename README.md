@@ -1,2 +1,2 @@
 # social_media_kotlin_jetpack_compose
-![App Preview](url "https://github.com/JohnZDictator/social_media_kotlin_jetpack_compose/blob/main/app/src/main/res/drawable/photo_2022_12_24_15_09_01.jpg")
+![App Preview](app/src/main/res/drawable/photo_2022_12_24_15_09_01.jpg "Image Title")
