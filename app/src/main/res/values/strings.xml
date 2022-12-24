@@ -3,4 +3,5 @@
     <string name="profile_pictures">Profile Pictures</string>
     <string name="settings">Settings</string>
     <string name="username">Benjamin</string>
+    <string name="last_message"></string>
 </resources>

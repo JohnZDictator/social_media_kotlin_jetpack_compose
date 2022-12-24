@@ -11,7 +11,7 @@ import androidx.compose.ui.unit.sp
 import com.example.socialmedia.R
 
 val fonts = FontFamily(
-    Font(R.font.roboto_black.ttf),
+    Font(R.font.roboto_black),
     Font(R.font.roboto_bold, weight = FontWeight.Bold),
     Font(R.font.roboto_light, weight = FontWeight.Light),
     Font(R.font.roboto_thin, weight = FontWeight.Thin),
@@ -21,10 +21,36 @@ val fonts = FontFamily(
 // Set of Material typography styles to start with
 val Typography = Typography(
     body1 = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = fonts,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp
-    )
+    ),
+    body2 = TextStyle(
+        fontFamily = fonts,
+        fontWeight = FontWeight.Light,
+        fontSize = 16.sp
+    ),
+    caption = TextStyle(
+        fontFamily = fonts,
+        fontWeight = FontWeight.Thin,
+        fontSize = 16.sp
+    ),
+    h1 = TextStyle(
+        fontFamily = fonts,
+        fontWeight = FontWeight.Bold,
+        fontSize = 16.sp
+    ),
+    h2 = TextStyle(
+        fontFamily = fonts,
+        fontWeight = FontWeight.Thin,
+        fontSize = 16.sp
+    ),
+    h3 = TextStyle(
+        fontFamily = fonts,
+        fontStyle = FontStyle.Italic,
+        fontSize = 16.sp
+    ),
+
     /* Other default text styles to override
     button = TextStyle(
         fontFamily = FontFamily.Default,
